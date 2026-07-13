@@ -14,3 +14,22 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+class HomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Home"),
+      ),
+      endDrawer: buildDrawer(context),
+      body: Center(
+        child: Text(
+          "Welcome to Home Page",
+          style: TextStyle(fontSize: 22),
+        ),
+      ),
+    );
+  }
+}
