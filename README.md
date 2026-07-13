@@ -56,15 +56,4 @@ The `Drawer` widget provides a sliding navigation panel that lets users move bet
 
 ---
 
-## Meaningful Commit Messages
 
-```text
-Initial Flutter project setup
-
-Add reusable navigation drawer
-
-Implement Home, Settings, Profile, and About pages
-
-Connect drawer navigation using Navigator.pushReplacement
-
-```
