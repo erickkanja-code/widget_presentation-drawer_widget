@@ -41,9 +41,9 @@ The `Drawer` widget provides a sliding navigation panel that lets users move bet
 
 Replace the image below with your screenshot after running the application.
 
-```markdown
-screenshots/ss.png
-```
+## Screenshot
+
+![Final UI](screenshots/ss.png)
 
 
 ---
