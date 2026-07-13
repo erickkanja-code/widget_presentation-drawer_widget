@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Home"),
       ),
-      endDrawer: buildDrawer(context),
+      drawer: buildDrawer(context),
       body: Center(
         child: Text(
           "Welcome to Home Page",
@@ -92,7 +92,7 @@ class AboutPage extends StatelessWidget {
 Widget buildDrawer(BuildContext context) {
   return Drawer(
     child: ListView( 
-      padding: EdgeInsets.all(50.0),
+      padding: EdgeInsets.all(0.0),
       children: [
         DrawerHeader(
           decoration: BoxDecoration(color: Colors.red),
